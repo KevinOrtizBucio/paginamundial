@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel de Imágenes</title>
+    <style>
+        body  {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .carousel-container {
+            width: 80%; /* Ajustar el tamaño del contenedor */
+            max-width: 800px;
+            margin: 0 auto; /* Centrar el carrusel horizontalmente */
+            overflow: hidden;
+            position: relative;
+        }
+        .carousel-slide {
+            display: flex;
+            width: calc(100% * 10); /* Ajustar basado en el número de imágenes */
+            animation: slide 100s linear infinite;
+        }
+        .carousel-slide img {
+            width: 100%;
+            height: auto;
+        }
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .info-section {
+            padding: 20px;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        .video-table {
+            width: 80%;
+            max-width: 800px;
+            border-collapse: collapse;
+            margin: 20px auto; /* Centrar la tabla horizontalmente */
+        }
+        .video-table td, .video-table th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .video-table tr:nth-child(even) {background-color: #f2f2f2;}
+        .video-table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body bgcolor="F7F28F">
+
+<div class="carousel-container">
+    <div class="carousel-slide">
+         <img src="k1.jfif" alt="Imagen 1">
+        <img src="k2.jfif" alt="Imagen 2">
+        <img src="k3.jfif" alt="Imagen 3">
+        <img src="k4.jfif" alt="Imagen 4">
+        <img src="k5.jfif" alt="Imagen 5">
+        <img src="k6.jfif" alt="Imagen 6">
+        <img src="k7.jfif" alt="Imagen 7">
+        <img src="k8.jfif" alt="Imagen 8">
+        <img src="k9.jfif" alt="Imagen 9">
+        <img src="k10.jfif" alt="Imagen 10">
+        <!-- Repeat images to create a loop effect -->
+        <img src="k1.jfif" alt="Imagen 1">
+        <img src="k2.jfif" alt="Imagen 2">
+        <img src="k3.jfif" alt="Imagen 3">
+        <img src="k4.jfif" alt="Imagen 4">
+        <img src="k5.jfif" alt="Imagen 5">
+        <img src="k6.jfif" alt="Imagen 6">
+        <img src="k7.jfif" alt="Imagen 7">
+        <img src="k8.jfif" alt="Imagen 8">
+        <img src="k9.jfif" alt="Imagen 9">
+        <img src="k10.jfif" alt="Imagen 10">
+    </div>
+</div>
+
+<div class="info-section">
+    <h2>Mundial</h2>
+    <p>La Copa Mundial de la FIFA, también conocida como Copa Mundial de Fútbol, Copa del Mundo o simplemente Mundial, y cuyo nombre original fue Campeonato Mundial de Fútbol, es el principal torneo internacional oficial de fútbol masculino a nivel de selecciones nacionales en el mundo.n 1​
+
+Este evento deportivo se realiza cada cuatro años desde 1930, con la excepción de 1942 y 1946, en los que se suspendió debido al desarrollo y las consecuencias de la Segunda Guerra Mundial, respectivamente. Cuenta con dos etapas principales: un proceso clasificatorio en el que participan más de 200 selecciones nacionales y una fase final realizada cada cuatro años en una sede definida con anticipación en la que participarán 48 equipos a partir de la edición de 2026; durante un periodo cercano a un mes.
+
+Ha sido realizada en 22 ocasiones, en las que ocho países —considerados históricamente potencias mundiales y candidatos— han alzado la copa: Brasil es la selección más exitosa, con cinco victorias; Alemania e Italia le siguen con cuatro trofeos; Argentina con tres; Uruguay y Francia la han ganado dos veces, en tanto Inglaterra y España se han titulado campeones una vez.n 2​ Los equipos europeos han ganado el título en doce ocasiones, mientras que los sudamericanos lo han hecho en diez. Solo tres equipos de otras confederaciones han llegado a semifinales: Estados Unidos en 1930, Corea del Sur en 2002 y Marruecos en 2022.
+
+La fase final del torneo es el evento deportivo de una sola disciplina más importante del mundo (la final de la Copa Mundial de Fútbol de 2002 fue vista por más de 1100 millones de personas),2​ y el segundo más importante a nivel general después de los Juegos Olímpicos. El balón oficial es fabricado por la compañía alemana de equipamiento deportivo Adidas.</p>
+</div>
+
+<table class="video-table">
+    <tr>
+        <th>MUNDIAL</th>
+    </tr>
+    <tr>
+    <center>
+        <td>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6k9qtLG9ZiU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </td>
+    </center>
+    </tr>
+</table>
+
+</body>
+</html>

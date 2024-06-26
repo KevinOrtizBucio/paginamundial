@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadios de los Mundiales</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7F28F;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        h1, h2, h3 {
+            color: #007bff;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        /* Estilos para la sección de encabezado */
+        header {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        /* Estilos para la sección de estadios */
+        .stadiums {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        .stadium {
+            text-align: center;
+            padding: 20px;
+            flex-basis: calc(33.33% - 20px);
+            margin: 10px;
+            background-color: #ffffff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .stadium img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .stadium h3 {
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Estilos para enlaces */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Media queries para dispositivos móviles */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            .stadium {
+                flex-basis: calc(50% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Estadios de los Mundiales</h1>
+    <p>Explora algunos de los estadios más emblemáticos que seran sede de la Copa del Mundo.</p>
+</header>
+
+<div class="container">
+    <section id="stadiums" class="stadiums">
+        <div class="stadium">
+            <img src="dio1.jpg" alt="Estadio 1">
+            <h3>Estadio Azteca</h3>
+            <p>Ciudad de Mexíco,Mexíco</p>
+        </div>
+        <div class="stadium">
+            <img src="dio2.jpg" alt="Estadio 2">
+            <h3>Rose Bowl</h3>
+            <p>Los angeles,Estados Unidos</p>
+        </div>
+        <div class="stadium">
+            <img src="dio3.jpg" alt="Estadio 3">
+            <h3>Estadio Olimpico de Montreal</h3>
+            <p>Montreal,Canadá</p>
+        </div>
+        <div class="stadium">
+            <img src="dio4.jpg" alt="Estadio 4">
+            <h3>Estadio MetLife</h3>
+            <p>Nueva Jersey,Estados Unidos</p>
+        </div>
+        <div class="stadium">
+            <img src="dio5.jpg" alt="Estadio 5">
+            <h3>Estadio BBVA</h3>
+            <p>Monterrey,Mexíco</p>
+        </div>
+        <div class="stadium">
+            <img src="dio6.jpg" alt="Estadio 6">
+            <h3>Estadio BMO Field</h3>
+            <p>Toronto,Canadá</p>
+        </div>
+    </section>
+</div>
+
+<a href="principal.htm">Volver a la Página Principal</a>
+</body>
+</html>
